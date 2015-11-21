@@ -64,6 +64,5 @@ D:\Backup\PortfolioMVC\PortfolioMVC\bin\Microsoft.Owin.Security.OAuth.xml
 D:\Backup\PortfolioMVC\PortfolioMVC\bin\Microsoft.Owin.Security.Google.xml
 D:\Backup\PortfolioMVC\PortfolioMVC\bin\Microsoft.Owin.Security.Twitter.xml
 D:\Backup\PortfolioMVC\PortfolioMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-D:\Backup\PortfolioMVC\PortfolioMVC\obj\Debug\PortfolioMVC.csprojResolveAssemblyReference.cache
 D:\Backup\PortfolioMVC\PortfolioMVC\obj\Debug\PortfolioMVC.dll
 D:\Backup\PortfolioMVC\PortfolioMVC\obj\Debug\PortfolioMVC.pdb
