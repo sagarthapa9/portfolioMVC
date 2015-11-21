@@ -95,6 +95,8 @@ nav ul, ul.menu {
     background-size: cover;
     background-color: #060;
     height: 700px;
+    padding-left:15px;
+    padding-right:15px;
 }
 
     .jumbotron h1 {
@@ -136,11 +138,15 @@ nav ul, ul.menu {
 
 .myInfo p {
     font-family: AlegreyaItalic,sans-serif,Helvetica;
+    padding-left:40px;
+    padding-right:40px;
     font-size: 2.3em;
     font-weight: 500;
     color: #2B2B2B;
     letter-spacing: 1px;
 }
+
+
 
 /*============footer layout style========*/
 
