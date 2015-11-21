@@ -86,6 +86,20 @@ nav ul, ul.menu {
 
 
 /*layout styles*/
+.navbar ul {
+    
+        color: #DCDCDC;
+        font-family: EconomicaBold,Helvetica,sans-serif;
+        letter-spacing: 1px;
+        font-size:2.1em
+}
+.navbar-brand {
+    
+        color: #DCDCDC;
+        font-family: EconomicaBold,Helvetica,sans-serif;
+        letter-spacing: 1px;
+        font-size:2.9em
+}
 
 .jumbotron {
     background: url("../Content/images/cybercity4.jpg") no-repeat center center fixed;
@@ -93,7 +107,7 @@ nav ul, ul.menu {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    background-color: #060;
+    /*background-color: #060;*/
     height: 700px;
     padding-left:15px;
     padding-right:15px;
