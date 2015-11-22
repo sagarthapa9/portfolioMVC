@@ -13,6 +13,7 @@ namespace PortfolioMVC.Controllers
         {
           var devInfo= new HomeModel();
             devInfo.Title = "WEB APPLICATION & SOFTWARE DEVELOPER";
+  
             devInfo.TagLine = "I am passionate about taking and idea & making it into a Digitized Reality";
             return View(devInfo);
         }
