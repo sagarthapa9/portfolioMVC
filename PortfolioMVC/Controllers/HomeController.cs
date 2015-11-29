@@ -9,13 +9,12 @@ namespace PortfolioMVC.Controllers
 {
     public class HomeController : Controller
     {
+        PortfolioDb Db = new PortfolioDb();
+
         public ActionResult Index()
         {
-          var devInfo= new HomeModel();
-            devInfo.Title = "WEB APPLICATION & SOFTWARE DEVELOPER";
-  
-            devInfo.TagLine = "I am passionate about taking and idea & making it into a Digitized Reality";
-            return View(devInfo);
+            var developers = Db.Developers.ToList();
+            return View(developers);
         }
 
         public ActionResult About()
@@ -30,6 +29,15 @@ namespace PortfolioMVC.Controllers
             ViewBag.Message = "Your contact page.";
 
             return View();
+        }
+
+        protected override void Dispose(bool disposing)
+        {
+            if (Db != null)
+            {
+                Db.Dispose();
+            }
+            base.Dispose(disposing);
         }
     }
 }
