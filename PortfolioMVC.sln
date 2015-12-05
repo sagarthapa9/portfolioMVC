@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortfolioMVC", "PortfolioMV
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortfolioMVC.Tests", "PortfolioMVC.Tests\PortfolioMVC.Tests.csproj", "{19FA7A43-15C3-4BD0-AE73-70A4BFAB7B7A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BOL", "BOL\BOL.csproj", "{4F3D33D1-61D3-4E25-A112-46AA07819E4C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{19FA7A43-15C3-4BD0-AE73-70A4BFAB7B7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{19FA7A43-15C3-4BD0-AE73-70A4BFAB7B7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{19FA7A43-15C3-4BD0-AE73-70A4BFAB7B7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F3D33D1-61D3-4E25-A112-46AA07819E4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F3D33D1-61D3-4E25-A112-46AA07819E4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F3D33D1-61D3-4E25-A112-46AA07819E4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F3D33D1-61D3-4E25-A112-46AA07819E4C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -2,19 +2,19 @@
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
-using System.Web;
-using BOL;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace PortfolioMVC.Models
+namespace BOL
 {
-    public class PortfolioDb:DbContext
+    public class PortfolioDbEntities : DbContext
     {
-        public PortfolioDb() : base("name=ConnectionString")
+        public PortfolioDbEntities() : base("name=ConnectionString")
         {
 
         }
         public DbSet<Developer> Developers { get; set; }
         public DbSet<DeveloperInfo> DeveloperInfos { get; set; }
-        public  DbSet<Skill> Skills { get; set; }
+        public DbSet<Skill> Skills { get; set; }
     }
 }

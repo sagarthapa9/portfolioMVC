@@ -1,15 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Web;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace PortfolioMVC.Models
+namespace BOL
 {
     public class DeveloperInfo
     {
-        public int Id { get; set; } 
+        public int Id { get; set; }
         public string Title { get; set; }
         public string Description { get; set; }
-        public List<Skill> DeveloperSkills { get; set; } 
+        public ICollection<Skill> DeveloperSkills { get; set; }
     }
 }

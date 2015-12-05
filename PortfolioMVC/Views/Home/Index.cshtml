@@ -1,4 +1,5 @@
-﻿@model IEnumerable <PortfolioMVC.Models.Developer>
+﻿@model IEnumerable <BOL.Developer>
+
 @{
     ViewBag.Title = "Home Page";
 }
@@ -12,18 +13,18 @@
         </p>
     </div>
 
-    @*foreach (var devInfo in dev.DeveloperInfo)
+    foreach (var devInfo in dev.DeveloperInfo)
     {
         <div class="row myInfo">
             <div class="col-md-12">
                 <h2 class="center">--@devInfo.Title-</h2>
                 <p class="parastyle">
-                  devInfo.Description
+                  @devInfo.Description
                 </p>
                 <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a>
                 </p>
             </div>
-            <div class="col-md-4">
+            @*<div class="col-md-4">
                 <h2 class="headingstyle">--@Html.DisplayNameFor(model => model.Title) --</h2>
                 <p class="parastyle">
                     @Html.DisplayNameFor(model => model.Description)
@@ -44,11 +45,11 @@
                 <p class="parastyle">
                     @Html.DisplayNameFor(model => model.Description)
                 </p>
-            </div>
+            </div>*@
         </div>
-    }*@
+    }
 }
-<div class="row myInfo">
+@*<div class="row myInfo">
     <div class="col-md-12">
         <h2 class="center">--Who I Am?--</h2>
         <p class="parastyle">
@@ -83,4 +84,4 @@
             I thrive on understanding new concepts and ideas in order to enhance my skills.
         </p>
     </div>
-</div>
+</div>*@

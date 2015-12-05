@@ -1,0 +1,4 @@
+D:\Backup\portfolioMVC\BOL\bin\Release\BOL.dll
+D:\Backup\portfolioMVC\BOL\bin\Release\BOL.pdb
+D:\Backup\portfolioMVC\BOL\obj\Release\BOL.dll
+D:\Backup\portfolioMVC\BOL\obj\Release\BOL.pdb

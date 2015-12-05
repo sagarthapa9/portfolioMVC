@@ -15,6 +15,7 @@ namespace PortfolioMVC.Controllers
         {
             var developers = Db.Developers.ToList();
             return View(developers);
+         
         }
 
         public ActionResult About()
