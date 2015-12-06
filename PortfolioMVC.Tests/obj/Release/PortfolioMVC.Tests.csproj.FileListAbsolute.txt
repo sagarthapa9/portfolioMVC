@@ -56,3 +56,7 @@ D:\Backup\portfolioMVC\PortfolioMVC.Tests\obj\Release\PortfolioMVC.Tests.dll
 D:\Backup\portfolioMVC\PortfolioMVC.Tests\obj\Release\PortfolioMVC.Tests.pdb
 D:\Backup\portfolioMVC\PortfolioMVC.Tests\bin\Release\BOL.dll
 D:\Backup\portfolioMVC\PortfolioMVC.Tests\bin\Release\BOL.pdb
+D:\Backup\portfolioMVC\PortfolioMVC.Tests\bin\Release\BLL.dll
+D:\Backup\portfolioMVC\PortfolioMVC.Tests\bin\Release\DAL.dll
+D:\Backup\portfolioMVC\PortfolioMVC.Tests\bin\Release\BLL.pdb
+D:\Backup\portfolioMVC\PortfolioMVC.Tests\bin\Release\DAL.pdb

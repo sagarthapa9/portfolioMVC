@@ -272,9 +272,17 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{5ffcc703-a5a2-48a0-a80e-bd80b271e0b7}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
     <ProjectReference Include="..\BOL\BOL.csproj">
       <Project>{4f3d33d1-61d3-4e25-a112-46aa07819e4c}</Project>
       <Name>BOL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DAL\DAL.csproj">
+      <Project>{d712ac94-7525-40d2-a280-80ab2e622ddc}</Project>
+      <Name>DAL</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

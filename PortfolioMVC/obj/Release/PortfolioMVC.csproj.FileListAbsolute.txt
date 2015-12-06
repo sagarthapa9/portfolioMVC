@@ -69,3 +69,7 @@ D:\Backup\portfolioMVC\PortfolioMVC\obj\Release\PortfolioMVC.dll
 D:\Backup\portfolioMVC\PortfolioMVC\obj\Release\PortfolioMVC.pdb
 D:\Backup\portfolioMVC\PortfolioMVC\bin\BOL.dll
 D:\Backup\portfolioMVC\PortfolioMVC\bin\BOL.pdb
+D:\Backup\portfolioMVC\PortfolioMVC\bin\BLL.dll
+D:\Backup\portfolioMVC\PortfolioMVC\bin\DAL.dll
+D:\Backup\portfolioMVC\PortfolioMVC\bin\BLL.pdb
+D:\Backup\portfolioMVC\PortfolioMVC\bin\DAL.pdb

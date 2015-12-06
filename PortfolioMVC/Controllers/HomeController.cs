@@ -3,18 +3,26 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using BLL;
 using PortfolioMVC.Models;
 
 namespace PortfolioMVC.Controllers
 {
     public class HomeController : Controller
     {
-        PortfolioDb Db = new PortfolioDb();
+        private DeveloperBl objsBl;
+
+        public HomeController()
+        {
+            objsBl = new DeveloperBl();
+        }
 
         public ActionResult Index()
         {
-            var developers = Db.Developers.ToList();
-            return View(developers);
+
+           // var developers = objsBl.GetAll();
+            var developer = objsBl.GetById(1);
+            return View(developer);
          
         }
 
@@ -32,13 +40,5 @@ namespace PortfolioMVC.Controllers
             return View();
         }
 
-        protected override void Dispose(bool disposing)
-        {
-            if (Db != null)
-            {
-                Db.Dispose();
-            }
-            base.Dispose(disposing);
-        }
     }
 }
