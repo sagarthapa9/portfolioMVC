@@ -3,9 +3,18 @@
 @{
     ViewBag.Title = "Home Page";
 }
+@section jsSnippet{
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.chart').horizBarChart({
+                selector: '.bar',
+                speed: 3000
+            });
+        });
+    </script>
+}
 
 
-{
 <div class="jumbotron">
     <h1>@Model.Title</h1>
     <p class="lead">@Model.Tag</p>
@@ -24,18 +33,36 @@
             <a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a>
         </p>
     </div>
-   
+
     @foreach (var devInfo in @Model.DeveloperInfo.Skip(1))
     {
         <div class="col-md-4">
             <h2 class="headingstyle">-- @devInfo.Title --</h2>
             <p class="parastyle">
-                I love to create and build websites using front-end and .net technologies for developing state of art web applications
-                with minute details and presicion.
+                @devInfo.Description
             </p>
             <p>
                 <a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a>
             </p>
         </div>
     }
+
 </div>
+
+<div class="chart-horiz">
+
+    <ul class="chart">
+        <li class="title" title="My Bar Chart"></li>
+        @foreach (var devSkill in @Model.DeveloperSkills)
+        {
+            <li class="past" title="@devSkill.DeveloperSkill">
+                <span class="bar" data-number="@devSkill.Rate"></span><span class="number">@devSkill.Rate</span>
+            </li>
+        }
+    </ul>
+</div>
+
+
+
+
+

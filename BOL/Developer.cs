@@ -13,5 +13,6 @@ namespace BOL
         public string Title { get; set; }
         public string Tag { get; set; }
         public List<DeveloperInfo> DeveloperInfo { get; set; }
+        public List<Skill> DeveloperSkills { get; set; }
     }
 }

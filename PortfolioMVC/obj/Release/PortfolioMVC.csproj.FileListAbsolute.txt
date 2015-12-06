@@ -14,6 +14,9 @@ D:\Backup\portfolioMVC\PortfolioMVC\bin\PortfolioMVC.dll.config
 D:\Backup\portfolioMVC\PortfolioMVC\bin\PortfolioMVC.dll
 D:\Backup\portfolioMVC\PortfolioMVC\bin\PortfolioMVC.pdb
 D:\Backup\portfolioMVC\PortfolioMVC\bin\Antlr3.Runtime.dll
+D:\Backup\portfolioMVC\PortfolioMVC\bin\BLL.dll
+D:\Backup\portfolioMVC\PortfolioMVC\bin\BOL.dll
+D:\Backup\portfolioMVC\PortfolioMVC\bin\DAL.dll
 D:\Backup\portfolioMVC\PortfolioMVC\bin\EntityFramework.dll
 D:\Backup\portfolioMVC\PortfolioMVC\bin\EntityFramework.SqlServer.dll
 D:\Backup\portfolioMVC\PortfolioMVC\bin\Microsoft.AspNet.Identity.Core.dll
@@ -40,6 +43,9 @@ D:\Backup\portfolioMVC\PortfolioMVC\bin\System.Web.WebPages.Deployment.dll
 D:\Backup\portfolioMVC\PortfolioMVC\bin\System.Web.WebPages.dll
 D:\Backup\portfolioMVC\PortfolioMVC\bin\System.Web.WebPages.Razor.dll
 D:\Backup\portfolioMVC\PortfolioMVC\bin\WebGrease.dll
+D:\Backup\portfolioMVC\PortfolioMVC\bin\BLL.pdb
+D:\Backup\portfolioMVC\PortfolioMVC\bin\BOL.pdb
+D:\Backup\portfolioMVC\PortfolioMVC\bin\DAL.pdb
 D:\Backup\portfolioMVC\PortfolioMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 D:\Backup\portfolioMVC\PortfolioMVC\bin\System.Web.Helpers.xml
 D:\Backup\portfolioMVC\PortfolioMVC\bin\System.Web.Mvc.xml
@@ -67,9 +73,3 @@ D:\Backup\portfolioMVC\PortfolioMVC\bin\Microsoft.Owin.Security.MicrosoftAccount
 D:\Backup\portfolioMVC\PortfolioMVC\obj\Release\PortfolioMVC.csprojResolveAssemblyReference.cache
 D:\Backup\portfolioMVC\PortfolioMVC\obj\Release\PortfolioMVC.dll
 D:\Backup\portfolioMVC\PortfolioMVC\obj\Release\PortfolioMVC.pdb
-D:\Backup\portfolioMVC\PortfolioMVC\bin\BOL.dll
-D:\Backup\portfolioMVC\PortfolioMVC\bin\BOL.pdb
-D:\Backup\portfolioMVC\PortfolioMVC\bin\BLL.dll
-D:\Backup\portfolioMVC\PortfolioMVC\bin\DAL.dll
-D:\Backup\portfolioMVC\PortfolioMVC\bin\BLL.pdb
-D:\Backup\portfolioMVC\PortfolioMVC\bin\DAL.pdb

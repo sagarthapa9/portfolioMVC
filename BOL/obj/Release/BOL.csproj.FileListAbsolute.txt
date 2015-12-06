@@ -1,10 +1,10 @@
+D:\Backup\portfolioMVC\BOL\bin\Release\BOL.dll.config
 D:\Backup\portfolioMVC\BOL\bin\Release\BOL.dll
 D:\Backup\portfolioMVC\BOL\bin\Release\BOL.pdb
-D:\Backup\portfolioMVC\BOL\obj\Release\BOL.dll
-D:\Backup\portfolioMVC\BOL\obj\Release\BOL.pdb
-D:\Backup\portfolioMVC\BOL\bin\Release\BOL.dll.config
 D:\Backup\portfolioMVC\BOL\bin\Release\EntityFramework.dll
 D:\Backup\portfolioMVC\BOL\bin\Release\EntityFramework.SqlServer.dll
 D:\Backup\portfolioMVC\BOL\bin\Release\EntityFramework.xml
 D:\Backup\portfolioMVC\BOL\bin\Release\EntityFramework.SqlServer.xml
 D:\Backup\portfolioMVC\BOL\obj\Release\BOL.csprojResolveAssemblyReference.cache
+D:\Backup\portfolioMVC\BOL\obj\Release\BOL.dll
+D:\Backup\portfolioMVC\BOL\obj\Release\BOL.pdb

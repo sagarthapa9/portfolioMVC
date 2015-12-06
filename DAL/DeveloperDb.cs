@@ -23,7 +23,7 @@ namespace DAL
 
         public Developer GetDeveloper(int Id)
         {
-            return Db.Developers.Include("DeveloperInfo").SingleOrDefault(d=>d.Id==Id);
+            return Db.Developers.Include("DeveloperInfo").Include("DeveloperSkills").SingleOrDefault(d=>d.Id==Id);
 
         }
     }

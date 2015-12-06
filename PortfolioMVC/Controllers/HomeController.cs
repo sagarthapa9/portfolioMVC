@@ -19,8 +19,6 @@ namespace PortfolioMVC.Controllers
 
         public ActionResult Index()
         {
-
-           // var developers = objsBl.GetAll();
             var developer = objsBl.GetById(1);
             return View(developer);
          

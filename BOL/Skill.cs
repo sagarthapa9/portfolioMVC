@@ -10,6 +10,7 @@ namespace BOL
     {
         public int Id { get; set; }
         public string DeveloperSkill { get; set; }
+        public int Rate { get; set; }
     }
 
 }

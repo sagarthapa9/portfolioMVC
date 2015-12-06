@@ -1,6 +1,4 @@
-﻿body {
-}
-
+﻿
 @font-face {
     font-family: 'AnonymousRegular';
     src: url('../fonts/anonymous/Anonymous-webfont.eot');
@@ -159,8 +157,50 @@ nav ul, ul.menu {
     color: #2B2B2B;
     letter-spacing: 1px;
 }
+/*============SkilL graph style========*/
 
+.chart-horiz .chart { width: 50% }
 
+.chart-horiz .chart li {
+  display: block;
+  height: 23px;
+  margin-top: 3px;
+  position: relative
+}
+
+.chart-horiz .chart li:before {
+  color: #fff;
+  content: attr(title);
+  left: 5px;
+  position: absolute
+}
+
+.chart-horiz .chart li.title:before {
+  color: black;
+  font-weight: bold;
+  left: 0
+}
+
+.chart-horiz .chart li:first-child { margin-top: 0 }
+
+.chart-horiz .chart li .bar {
+  background: #27ae60;
+  height: 100%;
+  min-width: 164px
+}
+
+.chart-horiz .chart li .number {
+  color: #27ae60;
+  font-size: 18px;
+  font-weight: bold;
+  padding-left: 5px;
+  position: absolute;
+  top: -3px
+}
+
+.chart-horiz .chart li.past .bar { background: #2ecc71 }
+
+.chart-horiz .chart li.past .number { color: #2ecc71 }
 
 /*============footer layout style========*/
 
