@@ -55,12 +55,12 @@
     font-style: normal;
 }
 /*Limited reset*/
-html, body, div, section, article, aside, header, hgroup, footer, nav, h1, h2, h3, h4, h5, h6, p, hgroup,
+/*html, body, div, section, article, aside, header, hgroup, footer, nav, h1, h2, h3, h4, h5, h6, p, hgroup,
 blockquote, address, time, span, em, strong, img, ol, ul, li, figure, canvas, video {
     margin: 0;
     padding: 0;
     border: 0;
-}
+}*/
 
 a {
     text-decoration: none;
@@ -72,9 +72,8 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, nav
 }
 
 body {
-    text-align: center;
+    /*text-align: center;*/
     font: 100% Georgia,"Times New Roman",Times,Sherif;
-    max-width: 100%;
 }
 
 nav ul, ul.menu {
@@ -84,19 +83,23 @@ nav ul, ul.menu {
 
 
 /*layout styles*/
-.navbar ul {
-    
-        color: #DCDCDC;
-        font-family: EconomicaBold,Helvetica,sans-serif;
-        letter-spacing: 1px;
-        font-size:2.1em
+.borderline {
+    border-bottom: 1px solid #9AC0CD;
+    padding:20px;
 }
+
+.navbar ul {
+    color: #DCDCDC;
+    font-family: EconomicaBold,Helvetica,sans-serif;
+    letter-spacing: 1px;
+    font-size: 2.1em;
+}
+
 .navbar-brand {
-    
-        color: #DCDCDC;
-        font-family: EconomicaBold,Helvetica,sans-serif;
-        letter-spacing: 1px;
-        font-size:2.9em
+    color: #DCDCDC;
+    font-family: EconomicaBold,Helvetica,sans-serif;
+    letter-spacing: 1px;
+    font-size: 2.9em;
 }
 
 .jumbotron {
@@ -105,10 +108,11 @@ nav ul, ul.menu {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    /*background-color: #060;*/
     height: 700px;
-    padding-left:15px;
-    padding-right:15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    margin-bottom: 10px;
 }
 
     .jumbotron h1 {
@@ -138,69 +142,84 @@ nav ul, ul.menu {
     background: transparent url(../Content/images/dust.jpg);
     height: auto;
     border-radius: 15px;
+    text-align: center;
 }
 
-.myInfo h2 {
-    margin: 50px auto 0px;
-    font-family: AlegreyaItalic,Helvetica,sans-serif;
-    font-size: 3em;
-    font-weight: 800;
-    color: #00688B;
-}
+    .myInfo h2 {
+        margin: 50px auto 0px;
+        font-family: AlegreyaItalic,Helvetica,sans-serif;
+        font-size: 3em;
+        font-weight: 800;
+        color: #00688B;
+    }
 
-.myInfo p {
-    font-family: AlegreyaItalic,sans-serif,Helvetica;
-    padding-left:40px;
-    padding-right:40px;
-    font-size: 2.3em;
-    font-weight: 500;
-    color: #2B2B2B;
-    letter-spacing: 1px;
-}
+    .myInfo p {
+        font-family: AlegreyaItalic,sans-serif,Helvetica;
+        padding-left: 40px;
+        padding-right: 40px;
+        font-size: 2.3em;
+        font-weight: 500;
+        color: #2B2B2B;
+        letter-spacing: 1px;
+    }
 /*============SkilL graph style========*/
-
-.chart-horiz .chart { width: 50% }
-
-.chart-horiz .chart li {
-  display: block;
-  height: 23px;
-  margin-top: 3px;
-  position: relative
+.chart-horiz .chart {
+    width: 70%;
+    text-align: left;
+    padding-top: 85px;
 }
 
-.chart-horiz .chart li:before {
-  color: #fff;
-  content: attr(title);
-  left: 5px;
-  position: absolute
-}
+    .chart-horiz .chart li {
+        display: block;
+        height: 33px;
+        margin-top: 3px;
+        position: relative;
+    }
 
-.chart-horiz .chart li.title:before {
-  color: black;
-  font-weight: bold;
-  left: 0
-}
+        .chart-horiz .chart li:before {
+            color: #fff;
+            font-size: 3em;
+            font-family: AlegreyaItalic,sans-serif,Helvetica;
+            font-weight: 500;
+            content: attr(title);
+            left: 10px;
+            position: absolute;
+        }
 
-.chart-horiz .chart li:first-child { margin-top: 0 }
+        .chart-horiz .chart li.title:before {
+            color: #1874CD;
+            font-weight: bold;
+            font-size: 3em;
+            left: 0;
+        }
 
-.chart-horiz .chart li .bar {
-  background: #27ae60;
-  height: 100%;
-  min-width: 164px
-}
+        .chart-horiz .chart li:first-child {
+            margin-top: 0;
+        }
 
-.chart-horiz .chart li .number {
-  color: #27ae60;
-  font-size: 18px;
-  font-weight: bold;
-  padding-left: 5px;
-  position: absolute;
-  top: -3px
-}
+        .chart-horiz .chart li .bar {
+            background: #00688B;
+            height: 100%;
+            min-width: 164px;
+        }
 
-.chart-horiz .chart li.past .bar { background: #2ecc71 }
+        .chart-horiz .chart li .number {
+            color: #00688B;
+            ;
+            font-size: 18px;
+            font-weight: bold;
+            padding-left: 5px;
+            position: absolute;
+            top: -3px;
+        }
 
-.chart-horiz .chart li.past .number { color: #2ecc71 }
+        .chart-horiz .chart li.past .bar {
+            background: #00688B;
+        }
+
+        .chart-horiz .chart li.past .number {
+            color: #00688B;
+        }
 
 /*============footer layout style========*/
 
@@ -209,7 +228,7 @@ footer#footer {
     height: 200px;
     background-color: #0D0D0D;
     padding: 0 5px 0;
-    /*width:100%;*/
+    text-align: center;
 }
 
     footer#footer h2 {

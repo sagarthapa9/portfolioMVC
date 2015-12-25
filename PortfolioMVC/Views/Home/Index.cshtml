@@ -13,8 +13,6 @@
         });
     </script>
 }
-
-
 <div class="jumbotron">
     <h1>@Model.Title</h1>
     <p class="lead">@Model.Tag</p>
@@ -23,46 +21,57 @@
     </p>
 </div>
 
-<div class="row myInfo">
-    <div class="col-md-12">
-        <h2 class="center">--@Model.DeveloperInfo[0].Title-</h2>
-        <p class="parastyle">
-            @Model.DeveloperInfo[0].Description
-        </p>
-        <p>
-            <a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a>
-        </p>
-    </div>
-
-    @foreach (var devInfo in @Model.DeveloperInfo.Skip(1))
-    {
-        <div class="col-md-4">
-            <h2 class="headingstyle">-- @devInfo.Title --</h2>
+<div class="myInfo">
+    <div class="row">
+        <div class="col-md-12">
+            <h2 class="center">--@Model.DeveloperInfo[0].Title-</h2>
             <p class="parastyle">
-                @devInfo.Description
+                @Model.DeveloperInfo[0].Description
             </p>
             <p>
                 <a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a>
             </p>
         </div>
-    }
 
-</div>
-
-<div class="chart-horiz">
-
-    <ul class="chart">
-        <li class="title" title="My Bar Chart"></li>
-        @foreach (var devSkill in @Model.DeveloperSkills)
+        @foreach (var devInfo in @Model.DeveloperInfo.Skip(1))
         {
-            <li class="past" title="@devSkill.DeveloperSkill">
-                <span class="bar" data-number="@devSkill.Rate"></span><span class="number">@devSkill.Rate</span>
-            </li>
+            <div class="col-md-4">
+                <h2 class="headingstyle">-- @devInfo.Title --</h2>
+                <p class="parastyle">
+                    @devInfo.Description
+                </p>
+                <p>
+                    <a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a>
+                </p>
+            </div>
         }
-    </ul>
+    </div>
+    <p class="borderline" /> 
+    <div class="row">
+        <div class="chart-horiz col-md-4">
+            <h2> What I Am Good At.. </h2>
+            <p>
+                I have always been keen about designing and developing professional web applications
+                which can be implemented in real business world providing best business solutions that
+                can help in transformation and growth of business.
+            </p>
+            <p>
+                Hence I have always been enthusiastic
+                about learning programming languages and software design techniques.
+                I have worked on various college projects where I developed web applications.
+                <strong>The following graph shows  proficiency of the skills I have achieved in the course of pursuing my career as web developer.</strong>
+            </p>
+        </div>
+        <div class="chart-horiz col-md-8">
+            <ul class="chart">
+                @foreach (var devSkill in @Model.DeveloperSkills)
+                {
+                    <li class="past" title="@devSkill.DeveloperSkill">
+                        <span class="bar" data-number="@devSkill.Rate"></span>
+                    </li>
+                }
+            </ul>
+        </div>
+
+    </div>
 </div>
-
-
-
-
-
