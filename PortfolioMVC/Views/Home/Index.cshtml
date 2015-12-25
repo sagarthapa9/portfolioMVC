@@ -35,34 +35,37 @@
 
         @foreach (var devInfo in @Model.DeveloperInfo.Skip(1))
         {
-            <div class="col-md-4">
-                <h2 class="headingstyle">-- @devInfo.Title --</h2>
-                <p class="parastyle">
-                    @devInfo.Description
-                </p>
-                <p>
-                    <a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a>
-                </p>
-            </div>
+            // Check for last Dev Info
+            if (@Model.DeveloperInfo.IndexOf(devInfo) == @Model.DeveloperInfo.Count - 1)
+            {
+                @helper GetLastDevInfo()
+                {
+                    <h2>@Model.DeveloperInfo.Last().Title </h2>
+                    <p class="parastyle">
+                        @Model.DeveloperInfo.Last().Description
+                    </p>
+                }
+            }
+            else
+            {
+                <div class="col-md-4">
+                    <h2 class="headingstyle">-- @devInfo.Title --</h2>
+                    <p class="parastyle">
+                        @devInfo.Description
+                    </p>
+                    <p>
+                        <a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a>
+                    </p>
+                </div>
+            }
         }
     </div>
-    <p class="borderline" /> 
+    <p class="borderline" />
     <div class="row">
-        <div class="chart-horiz col-md-4">
-            <h2> What I Am Good At.. </h2>
-            <p>
-                I have always been keen about designing and developing professional web applications
-                which can be implemented in real business world providing best business solutions that
-                can help in transformation and growth of business.
-            </p>
-            <p>
-                Hence I have always been enthusiastic
-                about learning programming languages and software design techniques.
-                I have worked on various college projects where I developed web applications.
-                <strong>The following graph shows  proficiency of the skills I have achieved in the course of pursuing my career as web developer.</strong>
-            </p>
+        <div class="chart-horiz col-md-6">
+          @GetLastDevInfo();
         </div>
-        <div class="chart-horiz col-md-8">
+        <div class="chart-horiz col-md-6">
             <ul class="chart">
                 @foreach (var devSkill in @Model.DeveloperSkills)
                 {
