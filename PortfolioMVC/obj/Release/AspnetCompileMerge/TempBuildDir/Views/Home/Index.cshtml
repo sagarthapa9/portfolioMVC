@@ -1,47 +1,80 @@
-﻿@model PortfolioMVC.Models.HomeModel
+﻿@model BOL.Developer
+
 @{
     ViewBag.Title = "Home Page";
 }
-
+@section jsSnippet{
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.chart').horizBarChart({
+                selector: '.bar',
+                speed: 3000
+            });
+        });
+    </script>
+}
 <div class="jumbotron">
     <h1>@Model.Title</h1>
-    <p class="lead">@Model.TagLine</p>
-    <p><a href="http://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+    <p class="lead">@Model.Tag</p>
+    <p>
+        <a href="http://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a>
+    </p>
 </div>
 
-<div class="row myInfo">
-    <div class="col-md-12">
-        <h2 class="center">--Who I Am?--</h2>
-        <p class="parastyle">
-            "Hello I am Sagar Thapa; I am a developer and designer currently residing in Oxford . I am currently looking for opportunity to enhance my programming,
-            analytical, creative and problem solving skills and pursue my career in the competitive world of web based application development."
-        </p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
+<div class="myInfo">
+    <div class="row">
+        <div class="col-md-12">
+            <h2 class="center">--@Model.DeveloperInfo[0].Title-</h2>
+            <p class="parastyle">
+                @Model.DeveloperInfo[0].Description
+            </p>
+            <p>
+                <a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a>
+            </p>
+        </div>
+
+        @foreach (var devInfo in @Model.DeveloperInfo.Skip(1))
+        {
+            // Check for last Dev Info
+            if (@Model.DeveloperInfo.IndexOf(devInfo) == @Model.DeveloperInfo.Count - 1)
+            {
+                @helper GetLastDevInfo()
+                {
+                    <h2>@Model.DeveloperInfo.Last().Title </h2>
+                    <p class="parastyle">
+                        @Model.DeveloperInfo.Last().Description
+                    </p>
+                }
+            }
+            else
+            {
+                <div class="col-md-4">
+                    <h2 class="headingstyle">-- @devInfo.Title --</h2>
+                    <p class="parastyle">
+                        @devInfo.Description
+                    </p>
+                    <p>
+                        <a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a>
+                    </p>
+                </div>
+            }
+        }
     </div>
-    <div class="col-md-4">
-        <h2 class="headingstyle">-- What I Do --</h2>
-        <p class="parastyle">
-            I love to create and build websites using front-end and .net technologies for developing state of art web applications
-            with minute details and presicion.
-        </p>
-        <p>
-            <a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a>
-        </p>
-    </div>
-    <div class="col-md-4">
-        <h2 class="headingstyle">-- What I Know --</h2>
-        <p class="parastyle">
-            I have been researching, designing and developing websites using <strong>
-                HTML5, CSS3, JavaScript/Jquery , C# language, ASP.NET 2.0/3.5/4.0 Framework,
-                SQL Server 2005/2008 ,SEO using Visual Studio 2008/2010
-            </strong>because my skills and experience lend themselves most readily to this areas.
-        </p>
-    </div>
-    <div class="col-md-4">
-        <<h2 class="headingstyle">-- What I Love --</h2>
-        <p class="parastyle">
-            I am passionate about learning innovative and creative technologies.
-            I thrive on understanding new concepts and ideas in order to enhance my skills.
-        </p>
+    <p class="borderline" />
+    <div class="row">
+        <div class="chart-horiz col-md-6">
+          @GetLastDevInfo();
+        </div>
+        <div class="chart-horiz col-md-6">
+            <ul class="chart">
+                @foreach (var devSkill in @Model.DeveloperSkills)
+                {
+                    <li class="past" title="@devSkill.Skill.DeveloperSkill">
+                        <span class="bar" data-number="@devSkill.Rate"></span>
+                    </li>
+                }
+            </ul>
+        </div>
+
     </div>
 </div>

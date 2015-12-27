@@ -66,3 +66,10 @@ D:\Backup\PortfolioMVC\PortfolioMVC\bin\Microsoft.Owin.Security.Twitter.xml
 D:\Backup\PortfolioMVC\PortfolioMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 D:\Backup\PortfolioMVC\PortfolioMVC\obj\Debug\PortfolioMVC.dll
 D:\Backup\PortfolioMVC\PortfolioMVC\obj\Debug\PortfolioMVC.pdb
+D:\Backup\portfolioMVC\PortfolioMVC\bin\BLL.dll
+D:\Backup\portfolioMVC\PortfolioMVC\bin\BOL.dll
+D:\Backup\portfolioMVC\PortfolioMVC\bin\DAL.dll
+D:\Backup\portfolioMVC\PortfolioMVC\bin\BLL.pdb
+D:\Backup\portfolioMVC\PortfolioMVC\bin\BOL.pdb
+D:\Backup\portfolioMVC\PortfolioMVC\bin\DAL.pdb
+D:\Backup\portfolioMVC\PortfolioMVC\obj\Debug\PortfolioMVC.csprojResolveAssemblyReference.cache

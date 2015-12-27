@@ -64,13 +64,6 @@ namespace DAL
                 new DeveloperInfo
                 {
                     DeveloperId = 2,
-                    Title = "--What I Love--",
-                    Description =
-                        "I am passionate about learning innovative and creative technologies. I thrive on understanding new concepts and ideas in order to enhance my skills."
-                },
-                new DeveloperInfo
-                {
-                    DeveloperId = 2,
                     Title = "What I am Good at..",
                     Description =
                         "I have always been keen about designing and developing professional web applications which can be implemented in real business world providing best business solutions that can help in transformation and growth of business.Hence I have always been enthusiastic about learning programming languages and software design techniques. I have worked on various college projects where I developed web applications. The following graph shows proficiency of the skills I have achieved in the course of pursuing my career as web developer."
@@ -95,12 +88,6 @@ namespace DAL
                     Title = "--What I Know--",
                     Description =
                         "I have been researching, designing and developing websites using HTML5, CSS3, JavaScript/Jquery , C# language, ASP.NET 2.0/3.5/4.0 Framework, SQL Server 2005/2008 ,SEO using Visual Studio 2008/2010 because my skills and experience lend themselves most readily to this areas."
-                },
-                new DeveloperInfo
-                {  DeveloperId = 2,
-                    Title = "--What I Love--",
-                    Description =
-                        "I am passionate about learning innovative and creative technologies. I thrive on understanding new concepts and ideas in order to enhance my skills."
                 },
                 new DeveloperInfo
                 {

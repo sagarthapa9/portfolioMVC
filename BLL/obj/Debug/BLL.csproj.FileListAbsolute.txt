@@ -1,0 +1,11 @@
+D:\Backup\portfolioMVC\BLL\bin\Debug\BLL.dll
+D:\Backup\portfolioMVC\BLL\bin\Debug\BLL.pdb
+D:\Backup\portfolioMVC\BLL\bin\Debug\BOL.dll
+D:\Backup\portfolioMVC\BLL\bin\Debug\DAL.dll
+D:\Backup\portfolioMVC\BLL\bin\Debug\EntityFramework.dll
+D:\Backup\portfolioMVC\BLL\bin\Debug\BOL.pdb
+D:\Backup\portfolioMVC\BLL\bin\Debug\DAL.pdb
+D:\Backup\portfolioMVC\BLL\bin\Debug\EntityFramework.xml
+D:\Backup\portfolioMVC\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+D:\Backup\portfolioMVC\BLL\obj\Debug\BLL.dll
+D:\Backup\portfolioMVC\BLL\obj\Debug\BLL.pdb

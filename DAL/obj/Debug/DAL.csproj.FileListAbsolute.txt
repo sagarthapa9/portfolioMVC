@@ -1,0 +1,12 @@
+D:\Backup\portfolioMVC\DAL\bin\Debug\DAL.dll.config
+D:\Backup\portfolioMVC\DAL\bin\Debug\DAL.dll
+D:\Backup\portfolioMVC\DAL\bin\Debug\DAL.pdb
+D:\Backup\portfolioMVC\DAL\bin\Debug\BOL.dll
+D:\Backup\portfolioMVC\DAL\bin\Debug\EntityFramework.dll
+D:\Backup\portfolioMVC\DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\Backup\portfolioMVC\DAL\bin\Debug\BOL.pdb
+D:\Backup\portfolioMVC\DAL\bin\Debug\EntityFramework.xml
+D:\Backup\portfolioMVC\DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\Backup\portfolioMVC\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+D:\Backup\portfolioMVC\DAL\obj\Debug\DAL.dll
+D:\Backup\portfolioMVC\DAL\obj\Debug\DAL.pdb
