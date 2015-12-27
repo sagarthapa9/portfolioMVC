@@ -51,6 +51,7 @@
   <ItemGroup>
     <Compile Include="Developer.cs" />
     <Compile Include="DeveloperInfo.cs" />
+    <Compile Include="DeveloperSkill.cs" />
     <Compile Include="PortfolioDbEntities.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Skill.cs" />

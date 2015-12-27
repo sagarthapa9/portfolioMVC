@@ -69,7 +69,7 @@
             <ul class="chart">
                 @foreach (var devSkill in @Model.DeveloperSkills)
                 {
-                    <li class="past" title="@devSkill.DeveloperSkill">
+                    <li class="past" title="@devSkill.Skill.DeveloperSkill">
                         <span class="bar" data-number="@devSkill.Rate"></span>
                     </li>
                 }

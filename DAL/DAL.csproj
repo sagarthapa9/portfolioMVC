@@ -50,17 +50,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DeveloperDb.cs" />
+    <Compile Include="PortFolioIntializer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BOL\BOL.csproj">
       <Project>{4f3d33d1-61d3-4e25-a112-46aa07819e4c}</Project>
       <Name>BOL</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
-    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

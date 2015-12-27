@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data.Entity;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Data.Entity;
+using BOL;
 
 namespace BOL
 {
@@ -13,8 +9,26 @@ namespace BOL
         {
 
         }
+
         public DbSet<Developer> Developers { get; set; }
         public DbSet<DeveloperInfo> DeveloperInfos { get; set; }
         public DbSet<Skill> Skills { get; set; }
+        public DbSet<DeveloperSkill> DeveloperSkills { get; set; }
+
+        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<DeveloperSkill>().
+                HasKey(ds => new { ds.DeveloperId, ds.SkillId });
+
+            modelBuilder.Entity<Developer>()
+                .HasMany(d => d.DeveloperSkills)
+                .WithRequired()
+                .HasForeignKey(ds => ds.DeveloperId);
+
+            modelBuilder.Entity<Skill>()
+                .HasMany(s => s.DeveloperSkills)
+                .WithRequired()
+                .HasForeignKey(ds => ds.SkillId);
+        }
     }
 }

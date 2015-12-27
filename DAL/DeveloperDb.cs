@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.Entity.Core.Common.CommandTrees;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -23,8 +24,9 @@ namespace DAL
 
         public Developer GetDeveloper(int Id)
         {
-            return Db.Developers.Include("DeveloperInfo").Include("DeveloperSkills").SingleOrDefault(d=>d.Id==Id);
+            return Db.Developers.Include("DeveloperInfo").Include("DeveloperSKills").Include("DeveloperSKills.Skill").SingleOrDefault(d => d.Id == Id);
 
+           
         }
     }
 }
