@@ -5,6 +5,6 @@ D:\Backup\portfolioMVC\BOL\bin\Debug\EntityFramework.dll
 D:\Backup\portfolioMVC\BOL\bin\Debug\EntityFramework.SqlServer.dll
 D:\Backup\portfolioMVC\BOL\bin\Debug\EntityFramework.xml
 D:\Backup\portfolioMVC\BOL\bin\Debug\EntityFramework.SqlServer.xml
-D:\Backup\portfolioMVC\BOL\obj\Debug\BOL.csprojResolveAssemblyReference.cache
 D:\Backup\portfolioMVC\BOL\obj\Debug\BOL.dll
 D:\Backup\portfolioMVC\BOL\obj\Debug\BOL.pdb
+D:\Backup\portfolioMVC\BOL\obj\Debug\BOL.csprojResolveAssemblyReference.cache
