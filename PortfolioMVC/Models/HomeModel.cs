@@ -8,6 +8,6 @@ namespace PortfolioMVC.Models
     public class HomeModel
     {
         public string Title { get; set; }
-        public string TagLine  { get; set; }
+        public string TagLine { get; set; }
     }
 }

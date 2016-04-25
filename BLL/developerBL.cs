@@ -27,6 +27,10 @@ namespace BLL
             return _objDb.GetDeveloper(Id);
         }
 
+        public void Insert(Developer dev)
+        {
+            _objDb.AddDeveloper(dev);
+        }
 
     }
 }

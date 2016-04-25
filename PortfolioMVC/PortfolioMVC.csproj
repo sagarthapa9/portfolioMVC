@@ -169,6 +169,9 @@
     <Compile Include="App_Start\IdentityConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
+    <Compile Include="Areas\Admin\AdminAreaRegistration.cs" />
+    <Compile Include="Areas\Admin\Controllers\DeveloperController.cs" />
+    <Compile Include="Areas\Admin\Controllers\DeveloperSkillController.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
@@ -199,6 +202,11 @@
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Areas\Admin\Views\web.config" />
+    <Content Include="Areas\Admin\Views\_ViewStart.cshtml" />
+    <Content Include="Areas\Admin\Views\Shared\_Layout.cshtml" />
+    <Content Include="Areas\Admin\Views\DeveloperSkill\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\Developer\Index.cshtml" />
     <None Include="Properties\PublishProfiles\MyPortfolio.pubxml" />
     <None Include="Properties\PublishProfiles\MyProfile.pubxml" />
     <None Include="Properties\Settings.settings">
@@ -259,6 +267,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Areas\Admin\Models\" />
     <Folder Include="fonts\alegreya\" />
     <Folder Include="fonts\anonymous\" />
     <Folder Include="fonts\economica\" />
