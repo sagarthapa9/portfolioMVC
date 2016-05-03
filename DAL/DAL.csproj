@@ -50,6 +50,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DeveloperDb.cs" />
+    <Compile Include="DevInfoDb.cs" />
     <Compile Include="PortFolioIntializer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

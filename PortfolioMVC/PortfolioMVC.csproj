@@ -170,8 +170,10 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Areas\Admin\AdminAreaRegistration.cs" />
+    <Compile Include="Areas\Admin\Controllers\AddEditDeveloperController.cs" />
     <Compile Include="Areas\Admin\Controllers\DeveloperController.cs" />
     <Compile Include="Areas\Admin\Controllers\DeveloperSkillController.cs" />
+    <Compile Include="Areas\Admin\Controllers\DevInfoController.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
@@ -207,6 +209,8 @@
     <Content Include="Areas\Admin\Views\Shared\_Layout.cshtml" />
     <Content Include="Areas\Admin\Views\DeveloperSkill\Index.cshtml" />
     <Content Include="Areas\Admin\Views\Developer\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\AddEditDeveloper\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\DevInfo\Index.cshtml" />
     <None Include="Properties\PublishProfiles\MyPortfolio.pubxml" />
     <None Include="Properties\PublishProfiles\MyProfile.pubxml" />
     <None Include="Properties\Settings.settings">
