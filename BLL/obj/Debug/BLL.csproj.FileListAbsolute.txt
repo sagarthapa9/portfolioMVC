@@ -1,0 +1,15 @@
+D:\Backup\portfolioMVC\portfolioMVC\BLL\bin\Debug\BLL.dll
+D:\Backup\portfolioMVC\portfolioMVC\BLL\bin\Debug\BLL.pdb
+D:\Backup\portfolioMVC\portfolioMVC\BLL\bin\Debug\BOL.dll
+D:\Backup\portfolioMVC\portfolioMVC\BLL\bin\Debug\DAL.dll
+D:\Backup\portfolioMVC\portfolioMVC\BLL\bin\Debug\EntityFramework.dll
+D:\Backup\portfolioMVC\portfolioMVC\BLL\bin\Debug\BOL.pdb
+D:\Backup\portfolioMVC\portfolioMVC\BLL\bin\Debug\BOL.dll.config
+D:\Backup\portfolioMVC\portfolioMVC\BLL\bin\Debug\DAL.pdb
+D:\Backup\portfolioMVC\portfolioMVC\BLL\bin\Debug\DAL.dll.config
+D:\Backup\portfolioMVC\portfolioMVC\BLL\bin\Debug\EntityFramework.xml
+D:\Backup\portfolioMVC\portfolioMVC\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+D:\Backup\portfolioMVC\portfolioMVC\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+D:\Backup\portfolioMVC\portfolioMVC\BLL\obj\Debug\BLL.csproj.CopyComplete
+D:\Backup\portfolioMVC\portfolioMVC\BLL\obj\Debug\BLL.dll
+D:\Backup\portfolioMVC\portfolioMVC\BLL\obj\Debug\BLL.pdb

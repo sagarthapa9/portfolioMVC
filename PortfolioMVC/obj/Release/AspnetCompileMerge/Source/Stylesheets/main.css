@@ -147,20 +147,58 @@ nav ul, ul.menu {
 
     .myInfo h2 {
         margin: 50px auto 0px;
-        font-family: AlegreyaItalic,Helvetica,sans-serif;
+        /*font-family: AlegreyaItalic,Helvetica,sans-serif;*/
+        font-family: EconomicaBold,EconomicaRegular, Comic Sans MS;
         font-size: 3em;
         font-weight: 800;
         color: #00688B;
     }
 
     .myInfo p {
-        font-family: AlegreyaItalic,sans-serif,Helvetica;
+        /*font-family: AlegreyaItalic,sans-serif,Helvetica;*/
+        font-family: EconomicaBold,EconomicaRegular, Comic Sans MS;
         padding-left: 40px;
         padding-right: 40px;
         font-size: 2.3em;
         font-weight: 500;
         color: #2B2B2B;
         letter-spacing: 1px;
+    }
+.myProject {
+    float: none;
+    margin: 5px auto 5px auto;
+    padding: 0;
+    background: transparent url(../Content/images/dust.jpg);
+    height: auto;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+    .myProject h2 {
+        margin: 50px auto 0px;
+        font-family: EconomicaBold,EconomicaRegular, Comic Sans MS;
+        /*font-family: AlegreyaItalic,Helvetica,sans-serif;*/
+        font-size: 3em;
+        font-weight: 800;
+        color: #00688B;
+    }
+
+    .myProject ul, li {
+        /*font-family: AlegreyaItalic,sans-serif,Helvetica;*/
+        font-family: EconomicaBold,EconomicaRegular, Comic Sans MS;
+        /*padding-top: 5px;
+        padding-left: 40px;
+        padding-right: 40px;
+        font-weight: 500;
+        color: #2B2B2B;
+        letter-spacing: 1px;*/
+        font-size: 1.4em;
+        /*list-style-position: inside;*/
+        list-style: none;
+    }
+    .myProject label {
+        padding-top:8px;
+        font-size: 1.6em;
     }
 /*============SkilL graph style========*/
 .chart-horiz .chart {
@@ -178,8 +216,9 @@ nav ul, ul.menu {
 
         .chart-horiz .chart li:before {
             color: #fff;
-            font-size: 3em;
-            font-family: AlegreyaItalic,sans-serif,Helvetica;
+            font-size: 2em;
+            /*font-family: AlegreyaItalic,sans-serif,Helvetica;*/
+            font-family: EconomicaBold,EconomicaRegular, Comic Sans MS;
             font-weight: 500;
             content: attr(title);
             left: 10px;
@@ -205,7 +244,6 @@ nav ul, ul.menu {
 
         .chart-horiz .chart li .number {
             color: #00688B;
-            ;
             font-size: 18px;
             font-weight: bold;
             padding-left: 5px;
@@ -225,7 +263,7 @@ nav ul, ul.menu {
 
 footer#footer {
     margin: 2px auto 0;
-    height: 200px;
+    /*height: 200px;*/
     background-color: #0D0D0D;
     padding: 0 5px 0;
     text-align: center;

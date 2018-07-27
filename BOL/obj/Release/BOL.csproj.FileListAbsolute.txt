@@ -7,3 +7,15 @@ D:\Backup\portfolioMVC\BOL\bin\Release\EntityFramework.xml
 D:\Backup\portfolioMVC\BOL\bin\Release\EntityFramework.SqlServer.xml
 D:\Backup\portfolioMVC\BOL\obj\Release\BOL.dll
 D:\Backup\portfolioMVC\BOL\obj\Release\BOL.pdb
+D:\Backup\portfolioMVC\portfolioMVC\BOL\bin\Release\BOL.dll.config
+D:\Backup\portfolioMVC\portfolioMVC\BOL\bin\Release\BOL.dll
+D:\Backup\portfolioMVC\portfolioMVC\BOL\bin\Release\BOL.pdb
+D:\Backup\portfolioMVC\portfolioMVC\BOL\bin\Release\EntityFramework.dll
+D:\Backup\portfolioMVC\portfolioMVC\BOL\bin\Release\EntityFramework.SqlServer.dll
+D:\Backup\portfolioMVC\portfolioMVC\BOL\bin\Release\EntityFramework.xml
+D:\Backup\portfolioMVC\portfolioMVC\BOL\bin\Release\EntityFramework.SqlServer.xml
+D:\Backup\portfolioMVC\portfolioMVC\BOL\obj\Release\BOL.csprojAssemblyReference.cache
+D:\Backup\portfolioMVC\portfolioMVC\BOL\obj\Release\BOL.csproj.CoreCompileInputs.cache
+D:\Backup\portfolioMVC\portfolioMVC\BOL\obj\Release\BOL.csproj.CopyComplete
+D:\Backup\portfolioMVC\portfolioMVC\BOL\obj\Release\BOL.dll
+D:\Backup\portfolioMVC\portfolioMVC\BOL\obj\Release\BOL.pdb

@@ -1,0 +1,11 @@
+D:\Backup\portfolioMVC\portfolioMVC\BOL\bin\Debug\BOL.dll.config
+D:\Backup\portfolioMVC\portfolioMVC\BOL\bin\Debug\BOL.dll
+D:\Backup\portfolioMVC\portfolioMVC\BOL\bin\Debug\BOL.pdb
+D:\Backup\portfolioMVC\portfolioMVC\BOL\bin\Debug\EntityFramework.dll
+D:\Backup\portfolioMVC\portfolioMVC\BOL\bin\Debug\EntityFramework.SqlServer.dll
+D:\Backup\portfolioMVC\portfolioMVC\BOL\bin\Debug\EntityFramework.xml
+D:\Backup\portfolioMVC\portfolioMVC\BOL\bin\Debug\EntityFramework.SqlServer.xml
+D:\Backup\portfolioMVC\portfolioMVC\BOL\obj\Debug\BOL.csproj.CoreCompileInputs.cache
+D:\Backup\portfolioMVC\portfolioMVC\BOL\obj\Debug\BOL.csproj.CopyComplete
+D:\Backup\portfolioMVC\portfolioMVC\BOL\obj\Debug\BOL.dll
+D:\Backup\portfolioMVC\portfolioMVC\BOL\obj\Debug\BOL.pdb
